@@ -23,7 +23,7 @@ export default {
 </script>
 <style >
 .Login {
-  padding: 20px;
+  padding: 2rem;
 }
 
 .form {
@@ -56,19 +56,21 @@ export default {
   border-color: #1ab188;
   margin-bottom: 18px;
   
+  
 }
 
 .form-submit {
   background: #1ab188;
-  border: none;
+  border: 5px;
   color: white;
   margin-top: 1rem;
-  padding:  0.9rem 0;
-  cursor: pointer;
-  transition: background 0.2s;
+  padding:  8px 0;
   background: #0b9185;
-  min-width: 35px;
-  text-anchor: initial;
+  text-anchor:initial;
+  font-size: 20px;
+  width: 100%;
+  float: right;
+  
   }
  
 </style>

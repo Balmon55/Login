@@ -1,32 +1,32 @@
 <template>
   <div class="register">
-    <form action class="form" @submit.prevent="register">
-      <label class="form-label" for="#email">Email:</label>
+    <form action class="form1" @submit.prevent="register">
+      <label class="form-label1" for="#email">Email:</label>
       <input
         v-model="email"
-        class="form-input"
+        class="form-input1"
         type="email"
         id="email"
         required
         placeholder="Email"
       >
-      <label class="form-label" for="#password">Password:</label>
+      <label class="form-label1" for="#password">Password:</label>
       <input
         v-model="password"
-        class="form-input"
+        class="form-input1"
         type="password"
         id="password"
         placeholder="Password"
       >
-      <label class="form-label" for="#password-repeat">Repite la contraeña:</label>
+      <label class="form-label1" for="#password-repeat">Repite la contraeña:</label>
       <input
         v-model="passwordRepeat"
-        class="form-input"
+        class="form-input1"
         type="password"
         id="password-repeat"
         placeholder="Password"
       >
-      <input class="form-submit" type="submit" value="Sign Up">
+      <input class="form-submit1" type="submit" value="Sign Up">
     </form>
   </div>
 </template>
@@ -37,10 +37,10 @@ export default {
 </script>
 <style>
 .register {
-  padding: 2px;
+  padding: 69px;
 }
-.form {
-  margin: 10rem auto;
+.form1 {
+  margin: 90px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +52,7 @@ export default {
   padding: 40px;
   box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.3);
 }
-.form-label {
+.form-label1 {
   margin-top: 2rem;
   color: white;
   margin-bottom: 0.5rem;
@@ -60,7 +60,7 @@ export default {
     margin-top: 0rem;
   
 }
-.form-input {
+.form-input1 {
   padding: 10px 15px;
   background: none;
   background-image: none;
@@ -70,7 +70,7 @@ export default {
     outline: 0;
     border-color: #1ab188;
 }
-.form-submit {
+.form-submit1 {
   background: #1ab188;
   border: none;
   color: white;

@@ -1,8 +1,11 @@
 <template>
   <div id="app">
+    <div class="button">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <button> <router-link to="/about">Register</router-link> </button>
+     <button><router-link to="/">Login</router-link>  </button>  
+      
+      </div>
     </div>
     <router-view/>
   </div>
@@ -10,23 +13,48 @@
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+  
 }
 
 #nav {
-  padding: 30px;
+  margin-top:0px;
+  
+ 
+  
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: white;
 }
 
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+.button{
+ float: right;
+ background-color:rgba(19, 35, 47, 0.9);
+ width: 100%;
+ margin: 0px;
+ 
+}
+button{
+
+background-color:rgba(18, 41, 59, 0.9);
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+float: right;
+}
+
+
+
+
+
 </style>
